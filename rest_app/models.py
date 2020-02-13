@@ -23,8 +23,3 @@ class Student(models.Model):
         return f"{self.name}({self.pk})"
 
 
-class Students(models.Model):
-    sname = models.CharField(max_length=100)
-
-    def __str__(self):
-        return self.sname
